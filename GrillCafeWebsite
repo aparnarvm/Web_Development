@@ -1,0 +1,366 @@
+<section id="index-part">
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grill Cafe Website</title>
+  <link rel="stylesheet" type="text/css" href="Project_4_styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+
+        <li><a href="#index-part">Home</a></li>
+        <li><a href="#menu-part">Menu</a></li>
+        <li><a href="#aboutus-part">About</a></li>
+        <li><a href="#contact-part">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h1><b>Grill Cafe </b></h1>
+      
+    </section>
+    <hr class="separator">
+    <section class="about-section">
+      <h2>ABOUT US</h2>
+      
+      <p><i>Discover a culinary oasis where Indian and Western flavors harmonize, as Grill Cafe invites you to experience a symphony of taste in the heart of Kochi.</i></p>
+      <img src="food6.jpg" width= '50%' alt="Delicious Food">
+    </section>
+    
+    <section class="projects-section">
+
+      <h2>OUR MENU</h2>
+      <hr class="separator">
+      
+      <ul>
+        <li>
+          <h3>Main Course</h3>
+          <p> <i>Savor the symphony of flavors in every bite as our main courses take you on a culinary voyage, where taste meets perfection.</i></p>
+                  </li>
+        <li>
+          <h3>Appetizer</h3>
+          <p> <i>Ignite your appetite with our tantalizing appetizers, crafted to tease your taste buds and leave you craving for more.</i></p>  
+        </li>
+        
+        <li>
+          <h3>Dessert</h3>
+          <p><i>Indulge in a heavenly sweet finale as our exquisite desserts transport you to a world of blissful delight and decadence.</i></p>
+          
+        </li>
+      </ul>
+    </section>
+    
+    <section class="contact-section">
+      
+      <h2>BOOK A TABLE</h2>
+      <hr class="separator">
+      
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 GrillCafe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<section id="menu-part">
+  
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu - Grill Cafe</title>
+  <link rel="stylesheet" type="text/css" href="Project_4_styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#index-part">Home</a></li>
+        <li><a href="#menu-part">Menu</a></li>
+        <li><a href="#aboutus-part">About</a></li>
+        <li><a href="#contact-part">Contact</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h1>Our Menu</h1>
+      <hr class="separator">
+      <ul>
+        <li>
+          <h3>MAIN COURSE</h3>
+          <table>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Tacos</td>
+    <td>$10</td>
+  </tr>
+  <tr>
+    <td>Berry Yogurt Bowl</td>
+    <td>$12</td>
+  </tr>
+  <tr>
+    <td>Chocolate Sheet Pancake</td>
+    <td>$8</td>
+  </tr>
+  
+ <tr>
+    <td>Grilled Fingerlings</td>
+    <td>$15</td>
+  </tr>
+  <tr>
+    <td>Smothered Chicken</td>
+    <td>$16</td>
+  </tr>  <tr>
+    <td>Fired Rice</td>
+    <td>$10</td>
+  </tr>
+  <tr>
+    <td>Masala Dosa</td>
+    <td>$8</td>
+  </tr>
+  <tr>
+    <td>Biriyani</td>
+    <td>$12</td>
+  </tr>
+</table>
+ </li>
+          
+      
+          <img src="food3.jpg" alt="main course">
+          <hr class="separator">
+        <li>
+          <h3>APPETIZER</h3>
+
+          <table>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Garlic Bread</td>
+    <td>$5</td>
+  </tr>
+  <tr>
+    <td>Potato Wedges</td>
+    <td>$7</td>
+  </tr>
+  <tr>
+    <td>Meat Ball</td>
+    <td>$6</td>
+  </tr>
+  <tr>
+    <td>French Fries</td>
+    <td>$6</td>
+  </tr>
+  <tr>
+    <td>Ratatouille</td>
+    <td>$8</td>
+  </tr>
+        </table>
+      </li>
+        
+          <img src="food8.jpg" width="40%" alt="appetizer">
+          <hr class="separator">
+        
+        <li>
+          <h3>DESSERT</h3>
+
+          <table>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  
+    <tr>
+    <td>Banana Split</td>
+    <td>$7</td>
+  </tr>
+  <tr>
+    <td>Cheese Cake</td>
+    <td>$7</td>
+  </tr>
+  <tr>
+      <td>Chocolate Ice Cream</td>
+    <td>$8</td>
+  </tr>
+  <tr>
+    <td>Gulab Jamun</td>
+    <td>$6</td>
+  </tr>
+  <tr>
+    <td>Fruit Cake</td>
+    <td>$7</td>
+  </tr>
+  <tr>
+    <td>Special Faluda</td>
+    <td>$8</td>
+  </tr>
+</table>
+</li>
+          <img src="food7.jpg" width = "40%" alt="Dessert">
+        
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 GrillCafe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="aboutus-part">
+  
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>About - Grill Cafe</title>
+  <link rel="stylesheet" type="text/css" href="Project_4_styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#index-part">Home</a></li>
+        <li><a href="#menu-part">Menu</a></li>
+        <li><a href="#aboutus-part">About</a></li>
+        <li><a href="#contact-part">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h1>About Us</h1>
+      <hr class="separator">
+
+          <br><p>Welcome to Grill Cafe!<br>
+
+At Grill Cafe, we take pride in offering an exceptional dining experience that tantalizes your taste buds and captivates your senses. Nestled in the heart of Kochi, Kerala, our cafe is a haven for food enthusiasts seeking a fusion of flavors from both Indian and Western cuisines.<br>
+
+Indulge in our delectable main courses, carefully crafted to satisfy your cravings and leave you longing for more. From aromatic curries to succulent grilled delicacies, our menu showcases the best of both worlds, offering a delightful culinary journey for every palate.
+
+Start your gastronomic adventure with our tantalizing appetizers, designed to awaken your appetite and set the tone for an unforgettable dining experience. With a perfect balance of spices and innovative twists, our appetizers are sure to leave you craving for another bite.
+
+And for those with a sweet tooth, our heavenly desserts are a divine treat. From rich chocolate indulgences to traditional Indian sweets with a modern twist, our desserts are crafted with love and passion, leaving a lasting impression on your taste buds.<br>
+
+Step into our luxurious and cozy space, adorned with beautiful decor that creates an inviting ambiance. Whether you're seeking a romantic dinner for two or a gathering with friends and family, our warm and welcoming atmosphere sets the perfect backdrop for your memorable moments.
+<br>
+
+Come, join us and let your taste buds embark on a delightful journey like no other!
+            
+          </p> 
+      <img src="food9.jpg" , width= "50%" alt="Restaurant Interior">
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 GrillCafe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+</section>
+
+
+
+<section id="contact-part">
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="Project_4_styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#index-part">Home</a></li>
+        <li><a href="#menu-part">Menu</a></li>
+        <li><a href="#aboutus-part">About</a></li>
+        <li><a href="#contact-part">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+  <section>
+  <h1>Contact Us</h1>
+  
+  <div class="cont-info">
+    <hr class="separator">
+    <p>Address: 123 Main Street, Kochi, Kerala</p>
+    <p>Phone: +91 1234567890</p>
+    <p>Email: grillcafe@gmail.com</p>
+    <p>Operating Hours: Monday-Saturday, 10:00AM-9:00PM</p>
+  </div>
+  
+  <h2>Send us a message</h2>
+  <hr class="separator">
+  
+  <form id="contact-form" action="submit.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <input type="submit" value="Send">
+  </form>
+</section>
+</main>
+  
+  <script src="Project_4_script.js"></script>
+</body>
+</html>
+
+  
+</section>
