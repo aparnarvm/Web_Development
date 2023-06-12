@@ -1,0 +1,223 @@
+/* Global styles */
+body {
+  font-family:'Times New Roman';
+  margin: 10px;
+  padding: 30px;
+  content : 50px;
+  
+  background-image: url('food5.jpg')
+}
+
+/* Header styles */
+header {
+  background-color: #4d4d4d;
+  color: #000000;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+/* Main section styles */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color:  #ffb366 ;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 60px;
+  font color : #f2f2f2;
+  margin-bottom: 10px;
+}
+h2{
+  font-size: 30px;
+  font color : #f2f2f2;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color : #000000;
+}
+
+button {
+  background-color:  #666666;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:  #666666;
+}
+
+/*table */
+table {
+  width: 40%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #ffa64d;
+}
+
+
+/* About section styles */
+.separator {
+  border: none;
+  border-top: 2px solid #000;
+  margin: 20px 0;
+}
+.about-section {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  margin-bottom: 15px;
+}
+
+.about-section img {
+  max-width: 80%;
+  border-radius: 8px;
+  margin-bottom: 35px;
+}
+
+/* Contact section styles */
+
+.separator {
+  border: none;
+  border-top: 2px solid #000;
+  margin: 20px 0;
+}
+
+.contact-section {
+  margin-bottom: 30px;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  color:  #4d4d4d
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  margin-bottom: 20px;
+}
+
+.contact-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 50%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.contact-section button {
+  width: auto;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section button:hover {
+  background-color: #45a049;
+}
+
+
+/*contact info*/
+
+.cont-info {
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+  background-color: #595959;
+  color:  #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
